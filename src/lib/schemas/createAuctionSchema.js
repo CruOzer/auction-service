@@ -12,5 +12,4 @@ const schema = {
   },
   required: ["body"],
 };
-
 export default schema;
