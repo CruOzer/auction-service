@@ -59,8 +59,8 @@ functions:
     handler: src/handlers/processAuctions.handler
     events:
       - schedule: rate(1 minute)
-  udploadAuctionPicture:
-    handler: src/handlers/udploadAuctionPicture.handler
+  uploadAuctionPicture:
+    handler: src/handlers/uploadAuctionPicture.handler
     events:
       - http:
           method: PATCH
